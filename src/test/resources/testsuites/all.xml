@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="General" configfailurepolicy="continue">
+    <test name="All apitest.tests run">
+        <classes>
+            <class name="apitest.tests.DetectEndpointTest"/>
+        </classes>
+    </test>
+</suite>
